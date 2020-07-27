@@ -1,0 +1,36 @@
+.container{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background-color: #EAEAEA;
+}
+#title{
+  display: flex;
+  justify-content: center;
+}
+.postContainer{
+  width: 45%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: white;
+  border-radius: 10px;
+  margin: 30px;
+}
+.date{
+  color: rgba(0, 0, 0, 0.6);
+}
+.photoTitle{
+  display: flex;
+  justify-content: space-between;
+}
+.photo{
+width: 100%;
+background-size: cover;
+}
+img{
+  width: 100%;
+  height: 100%;
+}
